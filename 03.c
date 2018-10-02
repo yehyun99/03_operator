@@ -4,15 +4,15 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
-	int s,h,m;
-	printf("input the second:");
-	scanf("%d",&s);
 	
-	h=s/3600;
-	m=(s%3600)/60;
+	int a,b,c;
+
+	printf("input 3 integers:");
+	scanf("%d %d %d",&a,&b,&c);
 	
-	
-	printf("the time for %d second is %d : %d : %d",s,h,m,(s%3600)%60);
+	printf("the mean of %i %i %i is %f\n",a,b,c,
+		(double)(a+b+c)/3);
+		
 	
 	return 0;
 }
