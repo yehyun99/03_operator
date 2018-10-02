@@ -16,6 +16,6 @@ int main(int argc, char *argv[]) {
 	i=a/b;
 	printf("/ result is %d\n",i);
 	i=a%b;
-	printf("% result is %d\n",i);
+	printf("%% result is %d\n",i);
 	return 0;
 }
